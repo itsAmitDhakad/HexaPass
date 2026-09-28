@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   HexaPass Explicit Android Backup Rules for API < 31 (Auto Backup)
+   Excludes all databases, shared preferences, datastores, and files from cloud backup.
+-->
+<full-backup-content>
+    <exclude domain="database" path="." />
+    <exclude domain="sharedpref" path="." />
+    <exclude domain="file" path="." />
+    <exclude domain="root" path="." />
+</full-backup-content>
+
